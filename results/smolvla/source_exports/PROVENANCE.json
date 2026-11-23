@@ -1,0 +1,32 @@
+{
+  "base.json": {
+    "original_sha256": "5e83dd4e7524742cab82e3533d5b6e07ebd5b6dae13023479c9a392c5ec4b338",
+    "public_sha256": "6dee8795b8f7124bf9ee3888d42699c16ee7c2703723a921a9601a6037d738d7",
+    "redactions": "home/scratch account roots and internal hostname only"
+  },
+  "clean_full_10030_base_v3_spatial_repair_per_task.csv": {
+    "original_sha256": "bfcc0f6a18c5eebff5e6866a6cb4df5d0ced2f1af699eca5c901fe9d186af1e4",
+    "public_sha256": "bfcc0f6a18c5eebff5e6866a6cb4df5d0ced2f1af699eca5c901fe9d186af1e4",
+    "redactions": "none"
+  },
+  "clean_holdout_4295_base_v3_spatial_repair_per_task.csv": {
+    "original_sha256": "a7b205ff8e262ce877bcf59d5a88e5246ff6e8981ad2314acbd34243aafe5e7d",
+    "public_sha256": "a7b205ff8e262ce877bcf59d5a88e5246ff6e8981ad2314acbd34243aafe5e7d",
+    "redactions": "none"
+  },
+  "combined_v3.json": {
+    "original_sha256": "7d58eaff1f3012154507f4b8d1ecc67d5b78b3ebaf9db68e0208439d8b15fe2a",
+    "public_sha256": "e012294b65d67e744b2f1a3ae7d182aa54d1edeae7644af0fa2049987b2408aa",
+    "redactions": "home/scratch account roots and internal hostname only"
+  },
+  "headline_speed.csv": {
+    "original_sha256": "130b59d3c8424548ba451ab9a3c10f9507e28b2c00dfb0b36183babe03a30ce1",
+    "public_sha256": "130b59d3c8424548ba451ab9a3c10f9507e28b2c00dfb0b36183babe03a30ce1",
+    "redactions": "none"
+  },
+  "standard_base_v3_spatial_repair_per_episode.csv": {
+    "original_sha256": "451671580596989fd2328031afe4533f12909239235c8e75ce8175896340b1cf",
+    "public_sha256": "451671580596989fd2328031afe4533f12909239235c8e75ce8175896340b1cf",
+    "redactions": "none"
+  }
+}

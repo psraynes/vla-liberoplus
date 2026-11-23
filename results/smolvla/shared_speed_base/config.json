@@ -1,0 +1,11 @@
+{
+  "job": 2568735,
+  "arm": "base",
+  "warmup": 50,
+  "iters": 300,
+  "batch": 1,
+  "device": "NVIDIA A30",
+  "executed_actions": 10,
+  "model_chunk_size": 50,
+  "sample_git_blob": "8863226be214ba60f8be5b3674d272024df93439"
+}

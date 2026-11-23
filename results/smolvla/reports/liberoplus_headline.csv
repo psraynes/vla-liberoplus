@@ -1,0 +1,7 @@
+run,model,instructions,tasks,successes,success_rate_pct,reused_language
+lp_base_official,base,official,10030,2681,26.7298,0
+lp_combined_v3_official,combined_v3,official,10030,4571,45.5733,0
+lp_base_clean,base,clean,10030,5372,53.5593,1537
+lp_combined_v3_clean,combined_v3,clean,10030,4001,39.8903,1537
+lp_noise_official_4295,noise,official,4295,1213,28.2421,0
+lp_clean_training_official_4295,clean_training,official,4295,1210,28.1723,0

@@ -1,0 +1,15 @@
+{
+  "model": "training run 2405982; step4000; initialized from lerobot/smolvla_libero@a24f1f380461b665158d52acd140152c79e8b36d",
+  "episodes_per_task": 50,
+  "seed_rule": "7+episode",
+  "initial_state": "episode index",
+  "settle_steps": 10,
+  "actions_per_query": 10,
+  "spatial_horizon": 280,
+  "other_horizons": [
+    280,
+    300,
+    520
+  ],
+  "instructions": "original LIBERO"
+}

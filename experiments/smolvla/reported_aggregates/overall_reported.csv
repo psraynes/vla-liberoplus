@@ -1,0 +1,4 @@
+protocol,n,base_percent,v3_percent,v3_spatial_repair_percent,repair_minus_v3_pp,repair_minus_base_pp,evidence
+LIBERO+ full clean instructions,10030,53.56,39.89,54.17,14.28,0.61,user-pasted completed report; rounded values; raw per-task CSV not yet retrieved
+LIBERO+ frozen holdout clean instructions,4295,53.02,29.38,48.85,19.46,-4.17,user-pasted completed report; rounded values; raw per-task CSV not yet retrieved
+Original standard LIBERO,2000,82.05,52.90,71.25,18.35,-10.80,user-pasted completed report; rounded values; raw per-episode CSV not yet retrieved

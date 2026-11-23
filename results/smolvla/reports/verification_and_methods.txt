@@ -1,0 +1,7 @@
+Validated exact plans, unique pairs, full/holdout agreement, reported suite/category rates and shared speed counts.
+Nominal exact McNemar p = two-sided Binomial(improved; improved+regressed, p=0.5).
+Holm correction applies to the six overall comparisons together; subgroup tests are exploratory.
+Variants share task families and evaluations use one seed/state per variant. These p values are conditional descriptive analyses, not independent-replication evidence or a measure of generalization to new task families.
+The full 10,030 set includes some teacher source variants; use the 4,295 set for the source-ID-held-out comparison. The frozen set has been inspected repeatedly during development and is not a final blind test.
+No paired uncertainty is inferred from aggregate-only records. Repaired-model official-instruction scores and shared latency remain unmeasured.
+Method reference: https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.binomtest.html

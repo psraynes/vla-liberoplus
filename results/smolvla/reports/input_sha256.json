@@ -1,0 +1,9 @@
+{
+  "base.json": "5e83dd4e7524742cab82e3533d5b6e07ebd5b6dae13023479c9a392c5ec4b338",
+  "clean_full_10030_base_v3_spatial_repair_per_task.csv": "bfcc0f6a18c5eebff5e6866a6cb4df5d0ced2f1af699eca5c901fe9d186af1e4",
+  "clean_holdout_4295_base_v3_spatial_repair_per_task.csv": "a7b205ff8e262ce877bcf59d5a88e5246ff6e8981ad2314acbd34243aafe5e7d",
+  "combined_v3.json": "7d58eaff1f3012154507f4b8d1ecc67d5b78b3ebaf9db68e0208439d8b15fe2a",
+  "final_v3_spatial_report.txt": "25ab92a3e88641d72fd7a4ad3a259f86f25950a31d7617726da6d8a49b6881e2",
+  "headline_speed.csv": "130b59d3c8424548ba451ab9a3c10f9507e28b2c00dfb0b36183babe03a30ce1",
+  "standard_base_v3_spatial_repair_per_episode.csv": "451671580596989fd2328031afe4533f12909239235c8e75ce8175896340b1cf"
+}

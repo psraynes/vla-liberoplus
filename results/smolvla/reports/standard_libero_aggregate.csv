@@ -1,0 +1,26 @@
+model,suite,success_rate_pct,episodes,source
+base,libero_spatial,76,500,completed report.py output; per-episode source not yet local
+base,libero_object,91.6,500,completed report.py output; per-episode source not yet local
+base,libero_goal,89,500,completed report.py output; per-episode source not yet local
+base,libero_10,71.6,500,completed report.py output; per-episode source not yet local
+base,ALL,82.05,2000,completed report.py output; per-episode source not yet local
+noise,libero_spatial,70.8,500,completed report.py output; per-episode source not yet local
+noise,libero_object,81,500,completed report.py output; per-episode source not yet local
+noise,libero_goal,79.2,500,completed report.py output; per-episode source not yet local
+noise,libero_10,64.4,500,completed report.py output; per-episode source not yet local
+noise,ALL,73.85,2000,completed report.py output; per-episode source not yet local
+clean_training,libero_spatial,68.6,500,completed report.py output; per-episode source not yet local
+clean_training,libero_object,87.6,500,completed report.py output; per-episode source not yet local
+clean_training,libero_goal,83,500,completed report.py output; per-episode source not yet local
+clean_training,libero_10,66.2,500,completed report.py output; per-episode source not yet local
+clean_training,ALL,76.35,2000,completed report.py output; per-episode source not yet local
+teacher_v2,libero_spatial,14,500,completed report.py output; per-episode source not yet local
+teacher_v2,libero_object,73.2,500,completed report.py output; per-episode source not yet local
+teacher_v2,libero_goal,75.8,500,completed report.py output; per-episode source not yet local
+teacher_v2,libero_10,46.4,500,completed report.py output; per-episode source not yet local
+teacher_v2,ALL,52.35,2000,completed report.py output; per-episode source not yet local
+combined_v3,libero_spatial,0.4,500,completed report.py output; per-episode source not yet local
+combined_v3,libero_object,85.8,500,completed report.py output; per-episode source not yet local
+combined_v3,libero_goal,77.6,500,completed report.py output; per-episode source not yet local
+combined_v3,libero_10,47.8,500,completed report.py output; per-episode source not yet local
+combined_v3,ALL,52.9,2000,completed report.py output; per-episode source not yet local

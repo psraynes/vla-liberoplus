@@ -1,0 +1,30 @@
+SmolVLA full LIBERO+ exact paired evaluation: 10,030/10,030 tasks per model
+
+base success rate % (0 recovered error records)
+                Camera  Robot  Language  Light  Background  Noise  Layout  Total
+libero_spatial    20.5   32.9      16.4   59.6        49.6   31.6    40.5   34.3
+ libero_object    14.4   37.9      54.0   85.2        64.1   20.9    47.9   43.4
+   libero_goal     6.9    2.7       4.1   22.9        23.8    2.1    18.4   10.5
+     libero_10     7.4   14.5      12.3   37.6        40.1    8.2    32.1   19.5
+    all suites    12.1   21.5      20.8   52.0        43.7   15.2    34.6   26.7
+
+combined_v3 success rate % (0 recovered error records)
+                Camera  Robot  Language  Light  Background  Noise  Layout  Total
+libero_spatial     0.5    4.6       3.3    0.0         3.5    2.0     0.0    2.0
+ libero_object    72.2   40.2      41.0   79.1        55.6   91.2    57.6   62.8
+   libero_goal    78.7   53.1      12.4   81.7        69.8   97.1    54.4   62.2
+     libero_10    51.1   38.7      34.2   63.5        56.7   84.2    37.8   52.8
+    all suites    51.5   35.2      22.1   55.8        47.1   71.1    38.1   45.6
+
+Episodes per cell
+                Camera  Robot  Language  Light  Background  Noise  Layout  Total
+libero_spatial     376    350       390    292         258    351     385   2402
+ libero_object     396    398       354    297         248    422     403   2518
+   libero_goal     408    409       410    279         281    379     425   2591
+     libero_10     419    393       383    274         289    449     312   2519
+    all suites    1599   1550      1537   1142        1076   1601    1525  10030
+
+Overall: base 2681/10030 = 26.73%; combined-v3 4571/10030 = 45.57%
+Paired change: +18.84 percentage points; combined-v3-only successes=3159; base-only successes=1269
+These are full benchmark rates; the earlier 4,295-task results are a paired subset.
+Saved $PROJECT_ROOT/smolvla_full_eval/smolvla_base_vs_combined_v3_full_10030.csv

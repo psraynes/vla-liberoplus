@@ -28,3 +28,10 @@ Upstream code is not vendored in this repo. The setup scripts clone these exact 
 ## Simulator stack
 MuJoCo 3.2.0 and robosuite 1.4.1 in both containers. MuJoCo 3.1.6 leaks file handles in long runs; see
 `cluster/liberoplus_container/README.md`.
+
+
+## SmolVLA environment (separate simulator stack)
+
+SmolVLA used LIBERO+ 4976dc30028e805ff8094b55501d532c48fec182 and original LIBERO 8f1084e3132a39270c3a13ebe37270a43ece2a01, with MuJoCo **3.8.1**, robosuite 1.4.1, NumPy 1.26.4, SciPy 1.13.1, Torch 2.11.0+cu128, Transformers 5.5.4, Python 3.12 and LeRobot 0.6.1. LeRobot upstream 7e241bd630a3719a56157a497ce5d08f244784f1 was captured with local changes; the complete patch series and container are external, so a clean upstream-only rebuild is not claimed.
+
+Released checkpoint: lerobot/smolvla_libero@a24f1f380461b665158d52acd140152c79e8b36d. Teacher: lerobot/pi05_libero_finetuned_v044@7152f13e34c6c115d808aea0e5d08aca74eac14b. Student run IDs/checkpoints and complete protocol distinctions are recorded under results/smolvla. No checkpoint weights or training datasets are redistributed.

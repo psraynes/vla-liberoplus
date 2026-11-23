@@ -1,0 +1,94 @@
+SmolVLA clean-instruction ablation, seed 7, one trial per affected task
+10,030 task outcomes per model: 8,493 re-evaluated with cleaned text; 1,537 Language tasks retain their original outcomes.
+
+base (0 recovered error records)
+suite/category                     n  official   clean    change
+libero_spatial/Camera_Viewpoints              376    20.48%   40.96%   +20.48
+libero_spatial/Robot_Initial_States           350    32.86%   60.00%   +27.14
+libero_spatial/Language_Instructions          390    16.41%   16.41%    +0.00
+libero_spatial/Light_Conditions               292    59.59%   89.04%   +29.45
+libero_spatial/Background_Textures            258    49.61%   80.23%   +30.62
+libero_spatial/Sensor_Noise                   351    31.62%   49.86%   +18.23
+libero_spatial/Objects_Layout                 385    40.52%   69.09%   +28.57
+libero_spatial/ALL                           2402    34.35%   55.62%   +21.27
+libero_object/Camera_Viewpoints              396    14.39%   28.28%   +13.89
+libero_object/Robot_Initial_States           398    37.94%   64.07%   +26.13
+libero_object/Language_Instructions          354    53.95%   53.95%    +0.00
+libero_object/Light_Conditions               297    85.19%   91.58%    +6.40
+libero_object/Background_Textures            248    64.11%   82.66%   +18.55
+libero_object/Sensor_Noise                   422    20.85%   48.58%   +27.73
+libero_object/Objects_Layout                 403    47.89%   57.82%    +9.93
+libero_object/ALL                           2518    43.37%   58.50%   +15.13
+libero_goal/Camera_Viewpoints              408     6.86%   63.24%   +56.37
+libero_goal/Robot_Initial_States           409     2.69%   52.57%   +49.88
+libero_goal/Language_Instructions          410     4.15%    4.15%    +0.00
+libero_goal/Light_Conditions               279    22.94%   91.04%   +68.10
+libero_goal/Background_Textures            281    23.84%   85.41%   +61.57
+libero_goal/Sensor_Noise                   379     2.11%   67.81%   +65.70
+libero_goal/Objects_Layout                 425    18.35%   59.29%   +40.94
+libero_goal/ALL                           2591    10.54%   57.62%   +47.09
+libero_10/Camera_Viewpoints              419     7.40%   28.16%   +20.76
+libero_10/Robot_Initial_States           393    14.50%   47.84%   +33.33
+libero_10/Language_Instructions          383    12.27%   12.27%    +0.00
+libero_10/Light_Conditions               274    37.59%   66.79%   +29.20
+libero_10/Background_Textures            289    40.14%   55.71%   +15.57
+libero_10/Sensor_Noise                   449     8.24%   42.32%   +34.08
+libero_10/Objects_Layout                 312    32.05%   58.65%   +26.60
+libero_10/ALL                           2519    19.49%   42.48%   +22.99
+all suites/Camera_Viewpoints             1599    12.07%   40.15%   +28.08
+all suites/Robot_Initial_States          1550    21.55%   56.00%   +34.45
+all suites/Language_Instructions         1537    20.75%   20.75%    +0.00
+all suites/Light_Conditions              1142    52.01%   84.85%   +32.84
+all suites/Background_Textures           1076    43.68%   75.56%   +31.88
+all suites/Sensor_Noise                  1601    15.24%   51.66%   +36.41
+all suites/Objects_Layout                1525    34.56%   61.25%   +26.69
+all suites/ALL                          10030    26.73%   53.56%   +26.83
+Clean-only successes=2965; official-only successes=274
+
+combined_v3 (0 recovered error records)
+suite/category                     n  official   clean    change
+libero_spatial/Camera_Viewpoints              376     0.53%    0.27%    -0.27
+libero_spatial/Robot_Initial_States           350     4.57%    1.71%    -2.86
+libero_spatial/Language_Instructions          390     3.33%    3.33%    +0.00
+libero_spatial/Light_Conditions               292     0.00%    0.00%    +0.00
+libero_spatial/Background_Textures            258     3.49%    4.26%    +0.78
+libero_spatial/Sensor_Noise                   351     1.99%    0.28%    -1.71
+libero_spatial/Objects_Layout                 385     0.00%    0.52%    +0.52
+libero_spatial/ALL                           2402     1.96%    1.42%    -0.54
+libero_object/Camera_Viewpoints              396    72.22%   57.58%   -14.65
+libero_object/Robot_Initial_States           398    40.20%   33.17%    -7.04
+libero_object/Language_Instructions          354    40.96%   40.96%    +0.00
+libero_object/Light_Conditions               297    79.12%   82.49%    +3.37
+libero_object/Background_Textures            248    55.65%   45.56%   -10.08
+libero_object/Sensor_Noise                   422    91.23%   80.57%   -10.66
+libero_object/Objects_Layout                 403    57.57%   56.82%    -0.74
+libero_object/ALL                           2518    62.79%   56.87%    -5.92
+libero_goal/Camera_Viewpoints              408    78.68%   50.25%   -28.43
+libero_goal/Robot_Initial_States           409    53.06%   47.92%    -5.13
+libero_goal/Language_Instructions          410    12.44%   12.44%    +0.00
+libero_goal/Light_Conditions               279    81.72%   97.13%   +15.41
+libero_goal/Background_Textures            281    69.75%   68.33%    -1.42
+libero_goal/Sensor_Noise                   379    97.10%   85.49%   -11.61
+libero_goal/Objects_Layout                 425    54.35%   57.41%    +3.06
+libero_goal/ALL                           2591    62.22%   57.24%    -4.98
+libero_10/Camera_Viewpoints              419    51.07%   39.14%   -11.93
+libero_10/Robot_Initial_States           393    38.68%   29.01%    -9.67
+libero_10/Language_Instructions          383    34.20%   34.20%    +0.00
+libero_10/Light_Conditions               274    63.50%   50.36%   -13.14
+libero_10/Background_Textures            289    56.75%   52.25%    -4.50
+libero_10/Sensor_Noise                   449    84.19%   57.68%   -26.50
+libero_10/Objects_Layout                 312    37.82%   30.45%    -7.37
+libero_10/ALL                           2519    52.84%   41.76%   -11.08
+all suites/Camera_Viewpoints             1599    51.47%   37.40%   -14.07
+all suites/Robot_Initial_States          1550    35.16%   28.90%    -6.26
+all suites/Language_Instructions         1537    22.12%   22.12%    +0.00
+all suites/Light_Conditions              1142    55.78%   57.27%    +1.49
+all suites/Background_Textures           1076    47.12%   43.40%    -3.72
+all suites/Sensor_Noise                  1601    71.08%   57.71%   -13.37
+all suites/Objects_Layout                1525    38.10%   37.38%    -0.72
+all suites/ALL                          10030    45.57%   39.89%    -5.68
+Clean-only successes=525; official-only successes=1095
+
+Full per-task CSV: $PROJECT_ROOT/smolvla_clean_instruction_eval/smolvla_clean_instruction_full_10030_per_task.csv
+Paired-subset per-task CSV: $PROJECT_ROOT/smolvla_clean_instruction_eval/smolvla_clean_instruction_paired_4295_per_task.csv
+The 'clean' training arm from earlier work means no noise augmentation; it is separate from this text ablation.

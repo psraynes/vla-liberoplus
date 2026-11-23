@@ -1,0 +1,15 @@
+{
+  "lerobot_commit": "7e241bd630a3719a56157a497ce5d08f244784f1",
+  "lerobot": "0.6.1",
+  "libero_plus_commit": "4976dc30028e805ff8094b55501d532c48fec182",
+  "base_model": "lerobot/smolvla_libero@a24f1f380461b665158d52acd140152c79e8b36d",
+  "teacher": "lerobot/pi05_libero_finetuned_v044@7152f13e34c6c115d808aea0e5d08aca74eac14b",
+  "python": "3.12",
+  "torch": "2.11.0+cu128",
+  "transformers": "5.5.4",
+  "mujoco": "3.8.1",
+  "robosuite": "1.4.1",
+  "numpy": "1.26.4",
+  "scipy": "1.13.1",
+  "environment_caveat": "Captured local LeRobot snapshot included changes; source tar and patched upstream files are not redistributed. A clean upstream-only rebuild is not verified here."
+}

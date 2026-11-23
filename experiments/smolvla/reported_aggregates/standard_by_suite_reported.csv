@@ -1,0 +1,5 @@
+suite,n,base_percent,v3_percent,v3_spatial_repair_percent
+libero_spatial,500,76.00,0.40,54.20
+libero_object,500,91.60,85.80,87.40
+libero_goal,500,89.00,77.60,83.40
+libero_10,500,71.60,47.80,60.00

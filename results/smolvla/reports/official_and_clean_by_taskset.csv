@@ -1,0 +1,9 @@
+model,task_set,instructions,successes,tasks,rate_pct
+base,full10030,official,2681,10030,26.7298
+base,full10030,clean_instruction,5372,10030,53.5593
+base,holdout4295,official,1246,4295,29.0105
+base,holdout4295,clean_instruction,2277,4295,53.0151
+combined_v3,full10030,official,4571,10030,45.5733
+combined_v3,full10030,clean_instruction,4001,10030,39.8903
+combined_v3,holdout4295,official,1430,4295,33.2945
+combined_v3,holdout4295,clean_instruction,1262,4295,29.3830

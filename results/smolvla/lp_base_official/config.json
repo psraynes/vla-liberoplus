@@ -1,0 +1,23 @@
+{
+  "model": "lerobot/smolvla_libero@a24f1f380461b665158d52acd140152c79e8b36d",
+  "instruction_mode": "official",
+  "seed": 7,
+  "initial_state": 0,
+  "settle_steps": 10,
+  "actions_executed_per_query": 10,
+  "episode_horizons": {
+    "libero_spatial": 220,
+    "libero_object": 280,
+    "libero_goal": 300,
+    "libero_10": 520
+  },
+  "mujoco": "3.8.1",
+  "robosuite": "1.4.1",
+  "lerobot": "0.6.1",
+  "numpy": "1.26.4",
+  "scipy": "1.13.1",
+  "trials_per_task": 1,
+  "images": "two256x256, rotated180deg",
+  "source": "verified exported completed-run CSVs",
+  "source_plan_order": "export order retained; round labels unavailable here, set0; original plan order is in frozen plans"
+}

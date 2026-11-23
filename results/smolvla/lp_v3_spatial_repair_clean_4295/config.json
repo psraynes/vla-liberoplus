@@ -1,0 +1,25 @@
+{
+  "model": "training/smol_v3_spatial_continuation_full_2540524/output/checkpoints/020000/pretrained_model",
+  "instruction_mode": "clean",
+  "seed": 7,
+  "initial_state": 0,
+  "settle_steps": 10,
+  "actions_executed_per_query": 10,
+  "episode_horizons": {
+    "libero_spatial": 220,
+    "libero_object": 280,
+    "libero_goal": 300,
+    "libero_10": 520
+  },
+  "mujoco": "3.8.1",
+  "robosuite": "1.4.1",
+  "lerobot": "0.6.1",
+  "numpy": "1.26.4",
+  "scipy": "1.13.1",
+  "trials_per_task": 1,
+  "images": "two256x256, rotated180deg",
+  "source": "retrieved per-task comparison CSV",
+  "source_plan_order": "exact frozen plan",
+  "reused_language_outcomes": 0,
+  "subset_of_full_evaluation": true
+}

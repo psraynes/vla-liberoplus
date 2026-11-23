@@ -215,3 +215,39 @@ In each clip, the left half is the scene camera and the right half the wrist cam
   - `lp_eval_ft_videos`: fine-tuned TurboVLA;
   - `lp_eval_oftplus_videos`: OFT+;
   - `oft/oftL/eval`: original OFT on standard LIBERO.
+
+
+---
+
+## SmolVLA: teacher training, instruction cleaning and Spatial recovery
+
+Success rates use MuJoCo 3.8.1 rather than the team's 3.2.0: cross-model values are separate-protocol references. Within-SmolVLA comparisons match task IDs and prompts. Source: [per-task results](../../results/smolvla/), [method](../plans/PLAN_smolvla_results_and_spatial_repair.md).
+
+| SmolVLA checkpoint (450M) | Full official LP | Full clean LP | Standard LIBERO | Shared A30 median/query | Per executed action |
+|---|---:|---:|---:|---:|---:|
+| Released base | 26.73 | 53.56 | 82.05 | 197.06 ms | 19.71 ms |
+| 4k noise training | unmeasured | unmeasured | 73.85 | unmeasured | unmeasured |
+| 4k unaltered-demo control | unmeasured | unmeasured | 76.35 | unmeasured | unmeasured |
+| Teacher-data v2 | unmeasured | unmeasured | 52.35 | unmeasured | unmeasured |
+| Combined teacher-data v3 | 45.57 | 39.89 | 52.90 | 208.77 ms | 20.88 ms |
+| Spatial continuation of v3 | unmeasured | 54.17 | 71.25 | unmeasured | unmeasured |
+
+LP full = 10030 variants; standard = 2000 episodes. Shared speed uses the fixed OFT observation, 50 warmups / 300 fresh queries, ten executed actions/query. Peak PyTorch allocated is about 0.899 GiB for base and v3; not full process/device memory. Older 100-query profiles remain historical, not these headline measurements.
+
+| Frozen 4295 source-ID-held-out set | Base | Noise | Unaltered-demo control | V3 | Spatial continuation |
+|---|---:|---:|---:|---:|---:|
+| Official instructions | 29.01 | 28.24 | 28.17 | 33.29 | unmeasured |
+| Clean instructions | 53.02 | unmeasured | unmeasured | 29.38 | 48.85 |
+
+Repair improves all suites over v3, but remains below base on the held-out set and standard LIBERO. Full clean Spatial recovers 1.42 -> 39.88% (base 55.62%); standard Spatial 0.40 -> 54.20% (base 76.00%). Camera and Sensor Noise full-clean rates exceed base (53.35 vs 40.15%; 73.52 vs 51.66%).
+
+| Clean/full or standard paired contrast: repaired vs reference | n | Change (points) | Repair-only successes | Reference-only successes | Nominal exact p |
+|---|---:|---:|---:|---:|---:|
+| Full clean vs base | 10030 | +0.61 | 1734 | 1673 | 0.304 |
+| Full clean vs v3 | 10030 | +14.28 | 1980 | 548 | 4.94e-189 |
+| Held-out clean vs base | 4295 | -4.17 | 640 | 819 | 3.08e-6 |
+| Held-out clean vs v3 | 4295 | +19.46 | 1005 | 169 | 3.91e-145 |
+| Standard vs base | 2000 | -10.80 | 184 | 400 | 2.23e-19 |
+| Standard vs v3 | 2000 | +18.35 | 492 | 125 | 2.18e-52 |
+
+The full set contains some teacher source variants. The 4295 set excludes those source IDs but shares task families and was inspected during development; it is not a blind final test. Nominal conditional McNemar tests and six-test Holm corrections are exported under results/smolvla/reports; correlated variants and single-seed limitations remain. The small full-clean lead over base is not evidence of a general improvement.

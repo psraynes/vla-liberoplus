@@ -1,0 +1,4 @@
+#!/bin/bash
+# The kit's Python: runs python (unbuffered) inside the LIBERO-Plus container through lp-exec.sh.
+# Only works inside a SLURM job on a GPU node (lp-exec.sh uses --nv and mounts the assets).
+exec "${LP_EXEC:?set LP_EXEC in config.sh}" python -u "$@"

@@ -1,0 +1,6 @@
+model,mean_query_ms,model_only_query_ms,ms_per_executed_action,actions_per_query,measured_queries,warmups,peak_torch_reserved_mib,gpu,job_id,source
+base,195.57,190.96,19.56,10,100,20,958,NVIDIA A30,2510287,completed profile report output; raw JSON not yet local
+noise,202.77,196.77,20.28,10,100,20,958,NVIDIA A30,2510595,completed profile report output; raw JSON not yet local
+clean_training,210,204.07,21,10,100,20,958,NVIDIA A30,2510597,completed profile report output; raw JSON not yet local
+teacher_v2,210.77,203.89,21.08,10,100,20,958,NVIDIA A30,2510599,completed profile report output; raw JSON not yet local
+combined_v3,200.3,193.77,20.03,10,100,20,958,NVIDIA A30,2510601,completed profile report output; raw JSON not yet local

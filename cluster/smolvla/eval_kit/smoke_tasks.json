@@ -1,0 +1,79 @@
+[
+  {
+    "suite": "libero_spatial",
+    "task_id": "608",
+    "classification_id": "609",
+    "category": "Camera Viewpoints",
+    "difficulty_level": "1",
+    "source": "block",
+    "success": "0",
+    "base_libero_task": "pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate",
+    "liberoplus_task_name": "pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_view_0_0_100_2_352_initstate_0"
+  },
+  {
+    "suite": "libero_object",
+    "task_id": "249",
+    "classification_id": "250",
+    "category": "Robot Initial States",
+    "difficulty_level": "1",
+    "source": "random_sample",
+    "success": "0",
+    "base_libero_task": "pick_up_the_alphabet_soup_and_place_it_in_the_basket",
+    "liberoplus_task_name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_51"
+  },
+  {
+    "suite": "libero_goal",
+    "task_id": "1098",
+    "classification_id": "1099",
+    "category": "Language Instructions",
+    "difficulty_level": "3",
+    "source": "random_sample",
+    "success": "1",
+    "base_libero_task": "open_the_middle_drawer_of_the_cabinet",
+    "liberoplus_task_name": "open_the_middle_drawer_of_the_cabinet_language_1_view_0_0_100_0_0_initstate_0"
+  },
+  {
+    "suite": "libero_10",
+    "task_id": "2245",
+    "classification_id": "2246",
+    "category": "Light Conditions",
+    "difficulty_level": "4",
+    "source": "random_sample",
+    "success": "0",
+    "base_libero_task": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it",
+    "liberoplus_task_name": "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it_light_1"
+  },
+  {
+    "suite": "libero_spatial",
+    "task_id": "0",
+    "classification_id": "1",
+    "category": "Background Textures",
+    "difficulty_level": "2",
+    "source": "block",
+    "success": "0",
+    "base_libero_task": "pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate",
+    "liberoplus_task_name": "pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate_table_1"
+  },
+  {
+    "suite": "libero_object",
+    "task_id": "1396",
+    "classification_id": "1397",
+    "category": "Sensor Noise",
+    "difficulty_level": "2",
+    "source": "random_sample",
+    "success": "1",
+    "base_libero_task": "pick_up_the_alphabet_soup_and_place_it_in_the_basket",
+    "liberoplus_task_name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_0_noise_2"
+  },
+  {
+    "suite": "libero_goal",
+    "task_id": "1889",
+    "classification_id": "1890",
+    "category": "Objects Layout",
+    "difficulty_level": "1",
+    "source": "random_sample",
+    "success": "1",
+    "base_libero_task": "open_the_middle_drawer_of_the_cabinet",
+    "liberoplus_task_name": "open_the_middle_drawer_of_the_cabinet_add_12"
+  }
+]

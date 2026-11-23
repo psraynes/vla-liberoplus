@@ -1,0 +1,25 @@
+{
+  "source_repository": "https://github.com/moojink/openvla-oft",
+  "source_commit": "e4287e94541f459edc4feabc4e181f537cd569a8",
+  "source_path": "experiments/robot/libero/sample_libero_spatial_observation.pkl",
+  "source_git_blob": "8863226be214ba60f8be5b3674d272024df93439",
+  "source_sha256": "326db6c78dd0a9d91c11f05af03b93fa3095338ee3cb5a5eb15adf3d87eb0109",
+  "npz_sha256": "ee8f5721d39995e62d533643cee4e0dcdf982d3e5875bc4b722c397bd469ed68",
+  "conversion": "Lossless arrays/string only; no rotation or resize; cluster uses allow_pickle=False.",
+  "shapes": {
+    "full_image": [
+      224,
+      224,
+      3
+    ],
+    "wrist_image": [
+      224,
+      224,
+      3
+    ],
+    "state": [
+      8
+    ]
+  },
+  "source_license": "MIT; LICENSE-openvla-oft-MIT.txt included"
+}

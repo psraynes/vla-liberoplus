@@ -1,0 +1,19 @@
+{
+  "model": "lerobot/smolvla_libero@a24f1f380461b665158d52acd140152c79e8b36d",
+  "task_count": 40,
+  "episodes_per_task": 50,
+  "seed": "7+episode",
+  "initial_state": "episode",
+  "settle_steps": 10,
+  "actions_executed_per_query": 10,
+  "horizons": [
+    280,
+    280,
+    300,
+    520
+  ],
+  "instructions": "original LIBERO",
+  "libero_commit": "8f1084e3132a39270c3a13ebe37270a43ece2a01",
+  "mujoco": "3.8.1",
+  "robosuite": "1.4.1"
+}

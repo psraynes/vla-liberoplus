@@ -16,3 +16,8 @@ It builds on the following projects, which are not redistributed here except as 
 - DINOv3 (Meta). TurboVLA's checkpoints contain DINOv3-derived parameters, distributed under the DINOv3 License.
 
 See THIRD_PARTY_LICENSES.md for the models and datasets used.
+
+SmolVLA experiments used pi0.5, based on PaliGemma, under the Gemma Terms of Use.
+Some SmolVLA students were trained on its generated demonstrations. No such model
+weights are redistributed here. See cluster/smolvla/MODEL_LICENSES.md for the
+applicable model terms and notices required for any future model distribution.
