@@ -43,6 +43,7 @@ To add work to the repo, see [CONTRIBUTING.md](CONTRIBUTING.md).
 | [`results/`](results) | per-task results of every run ([format](results/README.md)) |
 | [`patches/`](patches) | our changes to TurboVLA and OpenVLA-OFT |
 | [`third_party/VERSIONS.md`](third_party/VERSIONS.md) | pinned upstream commits, model revisions and data |
+| [`report/`](report) | final report in IEEE conference format (LaTeX; build instructions inside) |
 
 ## Running on Turing
 Turing is a shared cluster. Read [docs/turing/AGENTS.md](docs/turing/AGENTS.md) and the

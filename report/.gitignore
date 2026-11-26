@@ -1,0 +1,13 @@
+# Build output: regenerate with `make` (see README.md). The PDF itself is not tracked.
+build/
+*.pdf
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.xdv

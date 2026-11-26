@@ -2,7 +2,7 @@
 
 This repo's own code and docs are under the Apache License 2.0 ([LICENSE](LICENSE)). No third-party code, model
 weights or datasets are redistributed here, except the two patch sets in [`patches/`](patches), which modify upstream
-code and keep its license. The table lists what the scripts download or clone, and the terms that apply to it. Licenses
+code and keep its license, and the unmodified IEEE LaTeX files in [`report/`](report). The table lists what the scripts download or clone, and the terms that apply to it. Licenses
 were read from each project's repository or Hugging Face card on 2026-11-21; check the source before relying on them.
 
 ## Code
@@ -14,6 +14,7 @@ were read from each project's repository or Hugging Face card on 2026-11-21; che
 | [LIBERO-Plus](https://github.com/sylvestf/LIBERO-plus) | **none declared** | cloned by scripts only. **Do not copy LIBERO-Plus code into this repo.** |
 | [LeRobot](https://github.com/huggingface/lerobot) (teammates' SmolVLA work) | Apache 2.0 | files copied from it must keep their headers |
 | [NAFNet](https://github.com/megvii-research/NAFNet) (planned test 2) | MIT, with BasicSR parts under Apache 2.0 | not included; keep both notices if vendored |
+| IEEEtran LaTeX class v1.8b and BibTeX style v1.12 (IEEE conference template, `IEEEtranBST2`) | LaTeX Project Public License 1.3 | `report/IEEEtran.cls`, `report/IEEEtran.bst`, unmodified; a modified version must be renamed |
 
 ## Models
 | Model | Terms | Notes |
